@@ -1,51 +1,47 @@
-.App {
-    max-width: 100%;
-    overflow: hidden;
-    
-    height:'100vh';
-    
-  }
+
   
   .carousel-item {
     height: 80vh;
   }
   
   .carousel-item img {
-    object-fit: cover;
+    
+   object-fit:cover;
     height: 80vh;
   }
   
   .carousel-caption {
-    bottom: 50%;
-    /* transform: translateY(50%); */
+    
+   
     color: #fff;
     text-shadow: 1px 1px #000;
-    text-align: left;
+    display: flex;
+    transform: translateX(0%);
+    transform: translateY(-30%);
+    
+    justify-content: left;
+    
+    
+    
   }
   
   .carousel-caption h3 {
-    font-size: 3em;
+    font-size: 4em;
     font-weight: bold;
-    margin-bottom: 0rem;
+    margin-bottom: 2rem;
+    text-align: left;
   }
   
   .carousel-caption p {
     font-size: 1.5em;
     margin-bottom: 2rem;
+    text-align: left;
   }
   
   .container {
-    margin-top: 4rem;
+    margin-top: 1rem;
+    
   }
   
-  h2 {
-    font-size: 2em;
-    font-weight: bold;
-    margin-bottom: 1rem;
-  }
   
-  p {
-    font-size: 1.2em;
-    line-height: 1.5em;
-  }
   
