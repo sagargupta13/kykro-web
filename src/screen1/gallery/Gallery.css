@@ -1,0 +1,44 @@
+.gallery-container{
+    background-color: white;
+    height: auto;
+}
+
+h1{
+    
+    color:black;
+    font-size: 3rem !important;
+}
+.card{
+    width: 350px;
+    border-radius: 0% !important;
+ 
+   
+    
+}
+.card-body{
+    background-color: rgb(216, 213, 213) !important;
+    text-align: center;
+    
+}
+
+.card-img-top{
+    border-radius: 0% !important; 
+}
+.card-container{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 30px;
+    
+}
+.img-wrapper{
+    overflow: hidden;
+}
+
+img.hover-zoom {
+    transition: all 0.8s ease 0s;
+  
+  }
+  img.hover-zoom:hover {
+    transform: scale(1.25);
+   
+  }

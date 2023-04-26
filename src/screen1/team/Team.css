@@ -1,0 +1,40 @@
+.team-container{
+    background-color: rgb(242, 148, 180);
+    height: auto;
+}
+.team-heading{
+    
+    color:black;
+    font-size: 3rem !important;
+    margin-top: 50px;
+}
+.team-card{
+    width: 350px;
+    border-radius: 0% !important;
+ 
+   
+    
+}
+.team-card-body{
+    background-color: rgb(247, 38, 135);
+    text-align: center;
+    padding: 30px;
+    
+}
+
+.team-card-img-top{
+    border-radius: 0% !important; 
+}
+.team-card-container{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 30px;
+    margin-top: 20px;
+    
+}
+.team-card-title{
+
+}
+.team-card-name{
+    color: whitesmoke;
+}

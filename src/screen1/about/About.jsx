@@ -10,8 +10,8 @@ const About = () => {
     <div className=" bg-white vh-40">
       <Container style={{ marginTop: "70px" }}>
         <Row>
-          <Col md={6} className="d-flex  justify-content-flex-start ">
-            <Row style={{paddingLeft:'25px',marginBottom:'20px'}}>
+          <Col md={12} lg={6}className="d-flex  justify-content-flex-start ">
+            <Row style={{paddingLeft:'0px',marginBottom:'50px'}}>
               <Col md={12}>
                 <h1 style={{color:'palevioletred'}}>Welcome</h1>
               </Col>
@@ -37,18 +37,18 @@ const About = () => {
             </Row>
           </Col>
 
-          <Col md={6}>
+          <Col md={12} lg={6}>
             <Row>
-              <Col md={6}  className="mb-4">
+              <Col md={6} lg={6} className="mb-4">
                 <img src={Aboutimg1} alt="image1" className="img-fluid" />
               </Col>
-              <Col md={6}  className="mb-4">
+              <Col md={6} lg={6} className="mb-4">
                 <img src={Aboutimg2} alt="image2" className="img-fluid" />
               </Col>
-              <Col md={6}  className="mb-4">
+              <Col md={6} lg={6} className="mb-4">
                 <img src={Aboutimg3} alt="image3" className="img-fluid" />
               </Col>
-              <Col md={6}  className="mb-4">
+              <Col md={6} lg={6} className="mb-4">
                 <img src={Aboutimg4} alt="image4" className="img-fluid" />
               </Col>
             </Row>
