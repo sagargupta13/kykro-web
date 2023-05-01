@@ -1,6 +1,7 @@
 .team-container{
     background-color: rgb(242, 148, 180);
     height: auto;
+    justify-content: center;
 }
 .team-heading{
     
@@ -17,6 +18,7 @@
 }
 .team-card-body{
     background-color: rgb(247, 38, 135);
+    
     text-align: center;
     padding: 30px;
     
@@ -37,4 +39,30 @@
 }
 .team-card-name{
     color: whitesmoke;
+}
+
+ul.team-icon{
+    margin-top: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+ul.team-icon li{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 5px 5px;
+}
+
+ul.team-icon li a{
+    margin: 0;
+    display: inline-block;
+    padding: 8px 8px;
+    width: 40px;
+    height: 40px;
+    font-size: 18;
+    background-color: whitesmoke;
+    color: black;
+    border-radius: 50%;
 }

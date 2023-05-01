@@ -12,12 +12,13 @@ import "bootstrap/dist/js/bootstrap.bundle";
 import NavigationBar from "./screen1/navigation_bar/NavigationBar";
 import Team from "./screen1/team/Team";
 import TeamData from "./screen1/team/TeamData";
+import 'font-awesome/css/font-awesome.min.css';
 
 
 const App = () => {
   return (
     <div>
-      <NavigationBar/>
+      {/* <NavigationBar/> */}
       <Home />
       <About />
       <Services />

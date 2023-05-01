@@ -10,7 +10,7 @@ const About = () => {
     <div className=" bg-white vh-40">
       <Container style={{ marginTop: "70px" }}>
         <Row>
-          <Col md={12} lg={6}className="d-flex  justify-content-flex-start ">
+          <Col md={12} lg={6} className="d-flex  justify-content-flex-start ">
             <Row style={{paddingLeft:'0px',marginBottom:'50px'}}>
               <Col md={12}>
                 <h1 style={{color:'palevioletred'}}>Welcome</h1>
