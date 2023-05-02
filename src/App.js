@@ -13,6 +13,7 @@ import NavigationBar from "./screen1/navigation_bar/NavigationBar";
 import Team from "./screen1/team/Team";
 import TeamData from "./screen1/team/TeamData";
 import 'font-awesome/css/font-awesome.min.css';
+import NewsData from "./screen1/news/NewsData";
 
 
 const App = () => {
@@ -24,7 +25,7 @@ const App = () => {
       <Services />
       <Gallery details={CardData}/>
       <Team details={TeamData}/>
-      <News />
+      <News details={NewsData}/>
       <Contact />
     </div>
     
