@@ -42,14 +42,15 @@ const Services = () => {
               </Col>
             </Row>
           </Col>
-          <Col sm={12} md={12} lg={7} className="right-boxes">
-          <Row>
+          <Col sm={12} md={12} lg={7} className="right-boxes" >
+          <Row  >
               <Col
                 sm={12}
                 md={6}
                 lg={6}
                
                 className="right-box light-pink"
+               
               >
                 <h4>Oil Massage </h4>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>

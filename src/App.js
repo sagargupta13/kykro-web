@@ -19,7 +19,7 @@ import NewsData from "./screen1/news/NewsData";
 const App = () => {
   return (
     <div>
-      {/* <NavigationBar/> */}
+      <NavigationBar/>
       <Home />
       <About />
       <Services />

@@ -69,7 +69,8 @@ const News = (props) => {
                         </li>
                         <li>
                           <a href="#" className="twitter">
-                            <i className="fa fa-twitter"></i>
+                          <i class="fa fa-clock-o" aria-hidden="true"></i>
+                           9:00 AM
                           </a>
                         </li>
                        

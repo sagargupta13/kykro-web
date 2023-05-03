@@ -1,13 +1,13 @@
 
   
   .carousel-item {
-    height: 80vh;
+    height: 100vh;
   }
   
   .carousel-item img {
     
    object-fit:cover;
-    height: 80vh;
+    height: 100vh;
   }
   
   .carousel-caption {
