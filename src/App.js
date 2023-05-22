@@ -14,6 +14,7 @@ import Team from "./screen1/team/Team";
 import TeamData from "./screen1/team/TeamData";
 import 'font-awesome/css/font-awesome.min.css';
 import NewsData from "./screen1/news/NewsData";
+import ServicesData from "./screen1/services/ServicesData";
 
 
 const App = () => {
@@ -22,7 +23,7 @@ const App = () => {
       <NavigationBar/>
       <Home />
       <About />
-      <Services />
+      <Services details={ServicesData} />
       <Gallery details={CardData}/>
       <Team details={TeamData}/>
       <News details={NewsData}/>

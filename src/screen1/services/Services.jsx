@@ -1,94 +1,38 @@
 import React from "react";
 import "./Services.css";
 import { Container, Row, Col } from "react-bootstrap";
+import { HiScissors } from "react-icons/hi";
 
-const Services = () => {
+const Services = (props) => {
   return (
     <div className="bg-image">
-      <Container>
-        <h1 style={{color:'white',display:'flex',alignItems:'center',justifyContent:'center',marginBottom:'70px'}}>SERVICES</h1>
-        <Row>
-          <Col sm={12} md={12} lg={3} className="left-boxes">
-            <Row>
-              <Col
-                sm={12}
-                md={4}
-                lg={12}
-               
-                className="left-box white"
-              >
-                <h4>Oil Massage </h4>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-              </Col>
-              <Col
-                sm={12}
-                md={4}
-                lg={12}
-                
-                className="left-box pink"
-              >
-                <h4>Skin Scrub </h4>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-              </Col>
-              <Col
-                sm={12}
-                md={4}
-                lg={12}
-                
-                className="left-box white"
-              >
-                <h4>Body Wrap </h4>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-              </Col>
-            </Row>
-          </Col>
-          <Col sm={12} md={12} lg={7} className="right-boxes" >
-          <Row  >
-              <Col
-                sm={12}
-                md={6}
-                lg={6}
-               
-                className="right-box light-pink"
-               
-              >
-                <h4>Oil Massage </h4>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-              </Col>
-              <Col
-                sm={12}
-                md={6}
-                lg={6}
-                
-                className="right-box blue "
-              >
-                <h4>Skin Scrub </h4>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-              </Col>
-              <Col
-                sm={12}
-                md={6}
-                lg={6}
-                
-                className="right-box orange "
-              >
-                <h4>Body Wrap </h4>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-              </Col>
-              <Col
-                sm={12}
-                md={6}
-                lg={6}
-                
-                className="right-box green"
-              >
-                <h4>Body Wrap </h4>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-              </Col>
-            </Row>
-          </Col>
-        </Row>
-      </Container>
+     <div className="services">
+      <div className="container">
+        <div className="services__header">
+          <div className="common">
+            <h3 className="heading">SERVICES</h3>
+            <h1 className="mainHeader">Our Services</h1>
+            <p className="mainContent">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, ad
+              excepturi amet ea accusamus.
+            </p>
+            <div className="commonBorder"></div>
+          </div>
+          <div className="row">
+          {props.details.map((value, index) => (
+            <div className="col-4">
+                <div className="services__box" key={index}>
+<HiScissors className="commonIcons"/>
+<div className="services__box-header">{value.title}</div>
+<div className="services__box-p">{value.description}</div>
+                </div>
+            </div>
+            
+            ))}
+          </div>
+        </div>
+      </div>
+    </div>
     </div>
   );
 };
